@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e81ac1d4-0802-3d23-84eb-94024acb898d" version="1">
+  <Properties>
+    <Name>[COLOR_Green]Cosine的自然奇观增强[ENDCOLOR]</Name>
+    <Description>这个mod对某些较为鸡肋自然奇观产出进行了改进，同时修改了部分奇观的地形关联。</Description>
+    <Teaser>对原版游戏中的自然奇观做出了调整</Teaser>
+    <Authors>Cosine</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+  </Dependencies>
+  <References>
+  </References>
+  <FrontEndActions>
+    <UpdateText id="cosnaturalwonder_Text">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Stringtext.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="ingame_cosnaturalwonder_Text">
+      <Properties>
+        <LoadOrder>180000</LoadOrder>
+      </Properties>
+      <File>Stringtext.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="nwi_sql">
+      <Properties>
+        <LoadOrder>200000</LoadOrder>
+      </Properties>
+      <File>NaturalWondersIMP.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>NaturalWondersIMP.sql</File>
+    <File>Stringtext.xml</File>
+  </Files>
+</Mod>

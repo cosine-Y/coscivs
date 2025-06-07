@@ -1,0 +1,49 @@
+--祖鲁
+--驻军城市+1全产
+INSERT INTO TraitModifiers (TraitType , ModifierId)
+	VALUES ('TRAIT_CIVILIZATION_ZULU_ISIBONGO' , 'TRAIT_GARRISON_ALL_YIELDS_CosZulu');
+INSERT INTO Modifiers (ModifierId , ModifierType, SubjectRequirementSetId)
+	VALUES ('TRAIT_GARRISON_ALL_YIELDS_CosZulu', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE', 'CITY_HAS_GARRISON_UNIT_REQUIERMENT');
+INSERT INTO ModifierArguments (ModifierId , Name , Value) VALUES
+('TRAIT_GARRISON_ALL_YIELDS_CosZulu', 'Amount', '1');
+--雇佣兵后驻军城市额外+1全产
+INSERT INTO TraitModifiers (TraitType , ModifierId)
+	VALUES ('TRAIT_CIVILIZATION_ZULU_ISIBONGO' , 'TRAIT_GARRISON_ALL_YIELDS_MERCENARIES_CosZulu');
+INSERT INTO Modifiers (ModifierId , ModifierType, SubjectRequirementSetId)
+	VALUES ('TRAIT_GARRISON_ALL_YIELDS_MERCENARIES_CosZulu', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE', 'CITY_HAS_GARRISON_MERCENARIES_REQUIERMENT_CosZulu');
+INSERT INTO RequirementSets (RequirementSetId , RequirementSetType)
+	VALUES ('CITY_HAS_GARRISON_MERCENARIES_REQUIERMENT_CosZulu' , 'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId , RequirementId) VALUES
+('CITY_HAS_GARRISON_MERCENARIES_REQUIERMENT_CosZulu', 'REQUIRES_CITY_HAS_GARRISON_UNIT'),
+('CITY_HAS_GARRISON_MERCENARIES_REQUIERMENT_CosZulu', 'REQUIRES_PLAYER_HAS_MERCENARIES_CosZulu');
+INSERT INTO Requirements (RequirementId , RequirementType) VALUES
+('REQUIRES_PLAYER_HAS_MERCENARIES_CosZulu' , 'REQUIREMENT_PLAYER_HAS_CIVIC');
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('REQUIRES_PLAYER_HAS_MERCENARIES_CosZulu' , 'CivicType' , 'CIVIC_MERCENARIES');
+INSERT INTO ModifierArguments (ModifierId , Name , Value) VALUES
+('TRAIT_GARRISON_ALL_YIELDS_MERCENARIES_CosZulu', 'Amount', '1');
+--民族后驻军城市额外+2全产
+INSERT INTO TraitModifiers (TraitType , ModifierId)
+	VALUES ('TRAIT_CIVILIZATION_ZULU_ISIBONGO' , 'TRAIT_GARRISON_ALL_YIELDS_NATIONALISM_CosZulu');
+INSERT INTO Modifiers (ModifierId , ModifierType, SubjectRequirementSetId)
+	VALUES ('TRAIT_GARRISON_ALL_YIELDS_NATIONALISM_CosZulu', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE', 'CITY_HAS_GARRISON_NATIONALISM_REQUIERMENT_CosZulu');
+INSERT INTO RequirementSets (RequirementSetId , RequirementSetType)
+	VALUES ('CITY_HAS_GARRISON_NATIONALISM_REQUIERMENT_CosZulu' , 'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId , RequirementId) VALUES
+('CITY_HAS_GARRISON_NATIONALISM_REQUIERMENT_CosZulu', 'REQUIRES_CITY_HAS_GARRISON_UNIT'),
+('CITY_HAS_GARRISON_NATIONALISM_REQUIERMENT_CosZulu', 'REQUIRES_PLAYER_HAS_NATIONALISM_CosZulu');
+INSERT INTO Requirements (RequirementId , RequirementType) VALUES
+('REQUIRES_PLAYER_HAS_NATIONALISM_CosZulu' , 'REQUIREMENT_PLAYER_HAS_CIVIC');
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('REQUIRES_PLAYER_HAS_NATIONALISM_CosZulu' , 'CivicType' , 'CIVIC_NATIONALISM');
+INSERT INTO ModifierArguments (ModifierId , Name , Value) VALUES
+('TRAIT_GARRISON_ALL_YIELDS_NATIONALISM_CosZulu', 'Amount', '2');
+--伊坎达--
+--战略锤
+INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
+('DISTRICT_IKANDA' , 'Strategic_Production');
+--区域相邻给2锤
+/* INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
+('DISTRICT_IKANDA' , 'District_Production_CosZulu');
+INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, OtherDistrictAdjacent) VALUES
+('District_Production_CosZulu', 'LOC_DISTRICT_DISTRICT_PRODUCTION', 'YIELD_PRODUCTION', 2, 1, 1); */

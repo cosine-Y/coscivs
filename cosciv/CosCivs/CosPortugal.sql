@@ -1,0 +1,57 @@
+--葡萄牙
+--不是海岸或有港口城市外商-20金币产出
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+    ('TRAIT_CIVILIZATION_PORTUGAL', 'NO_COASTAL_LAND_HARBOR_INTERNATIONAL_TRADE_NEGATIVE_CosPortugal');
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('NO_COASTAL_LAND_HARBOR_INTERNATIONAL_TRADE_NEGATIVE_CosPortugal', 'MODIFIER_PLAYER_CITIES_ADJUST_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL_CosPortugal', 'NO_COASTAL_LAND_HARBOR_CosPortugal');
+INSERT INTO Types (Type,Kind) VALUES
+('MODIFIER_PLAYER_CITIES_ADJUST_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL_CosPortugal', 'KIND_MODIFIER');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('NO_COASTAL_LAND_HARBOR_INTERNATIONAL_TRADE_NEGATIVE_CosPortugal' , 'YieldType', 'YIELD_GOLD'),
+('NO_COASTAL_LAND_HARBOR_INTERNATIONAL_TRADE_NEGATIVE_CosPortugal' , 'Amount', '-20'); 
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES
+('MODIFIER_PLAYER_CITIES_ADJUST_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL_CosPortugal', 'COLLECTION_PLAYER_CITIES', 'EFFECT_ADJUST_CITY_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL');
+INSERT INTO RequirementSets (RequirementSetId , RequirementSetType)
+	VALUES ('NO_COASTAL_LAND_HARBOR_CosPortugal' , 'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId , RequirementId) VALUES
+('NO_COASTAL_LAND_HARBOR_CosPortugal' , 'PLOT_IS_NOT_COASTAL_LAND_CosPortugal'),
+('NO_COASTAL_LAND_HARBOR_CosPortugal' , 'REQUIRE_THIS_CITY_HAS_NO_HARBOR_CosPortugal');
+INSERT INTO Requirements (RequirementId , RequirementType, Inverse) VALUES
+('PLOT_IS_NOT_COASTAL_LAND_CosPortugal' , 'REQUIREMENT_PLOT_IS_COASTAL_LAND', 1),
+('REQUIRE_THIS_CITY_HAS_NO_HARBOR_CosPortugal' , 'REQUIREMENT_CITY_HAS_DISTRICT', 1);
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('REQUIRE_THIS_CITY_HAS_NO_HARBOR_CosPortugal' , 'DistrictType' , 'DISTRICT_HARBOR');
+--取消通商限制
+DELETE FROM TraitModifiers WHERE TraitType='TRAIT_CIVILIZATION_PORTUGAL' AND ModifierId='TRAIT_FORBID_INTERNATIONAL_LAND_ROUTES';
+--商业中心海岸少量加成
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES ('TRAIT_CIVILIZATION_PORTUGAL', 'COAST_COMMERCIAL_HUB_CosPortugal');
+INSERT INTO Modifiers (ModifierId, ModifierType)
+	VALUES 	('COAST_COMMERCIAL_HUB_CosPortugal' , 'MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+    ('COAST_COMMERCIAL_HUB_CosPortugal',			'Amount',					1),
+	('COAST_COMMERCIAL_HUB_CosPortugal', 'Description', 'LOC_DISTRICT_NUSANTARA_GOLD_Cos'),
+	('COAST_COMMERCIAL_HUB_CosPortugal',			'DistrictType',				'DISTRICT_COMMERCIAL_HUB'),
+	('COAST_COMMERCIAL_HUB_CosPortugal',			'TerrainType',			'TERRAIN_COAST'),
+	('COAST_COMMERCIAL_HUB_CosPortugal',			'TilesRequired',			2),
+	('COAST_COMMERCIAL_HUB_CosPortugal',			'YieldType',				'YIELD_GOLD');
+--商站
+--吸周围产出
+/* INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES 
+    ('TRAIT_CIVILIZATION_IMPROVEMENT_FEITORIA', 'FEITORIA_GRANT_ADJACENT_YIELDS_CosPortugal');
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES 	
+    ('FEITORIA_GRANT_ADJACENT_YIELDS_CosPortugal', 'MODIFIER_ALL_PLAYER_IMPROVEMENTS_GRANT_ADJACENT_YIELDS', 'THIS_PLOT_IS_A_FEITORIA_CosPortugal');
+INSERT INTO RequirementSets (RequirementSetId , RequirementSetType)
+	VALUES ('THIS_PLOT_IS_A_FEITORIA_CosPortugal' , 'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId , RequirementId)
+	VALUES ('THIS_PLOT_IS_A_FEITORIA_CosPortugal' , 'REQUIRES_PLOT_HAS_FEITORIA_CosPortugal');
+INSERT INTO Requirements (RequirementId , RequirementType)
+	VALUES ('REQUIRES_PLOT_HAS_FEITORIA_CosPortugal' , 'REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES');
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('REQUIRES_PLOT_HAS_FEITORIA_CosPortugal' , 'ImprovementType', 'IMPROVEMENT_FEITORIA');
+ */
+--克拉克帆船--
+--+1移速
+UPDATE Units SET BaseMoves=5 WHERE UnitType='UNIT_PORTUGUESE_NAU';
+--关联礁石
+INSERT INTO StartBiasFeatures (CivilizationType, FeatureType, Tier)
+	VALUES ('CIVILIZATION_PORTUGAL', 'FEATURE_REEF', 2);

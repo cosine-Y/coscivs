@@ -1,0 +1,67 @@
+--侦察系降价--
+--散兵 150→100
+UPDATE Units SET Cost=100 WHERE UnitType='UNIT_SKIRMISHER';
+--游骑兵 380→280
+UPDATE Units SET Cost=280 WHERE UnitType='UNIT_RANGER';
+--特种部队 520→400
+UPDATE Units SET Cost=400 WHERE UnitType='UNIT_SPEC_OPS';
+
+--修路不耗次数--
+UPDATE Routes_XP2 SET BuildWithUnitChargeCost=0;
+--军工不必兵工厂
+UPDATE Unit_BuildingPrereqs SET PrereqBuilding='BUILDING_BARRACKS' WHERE Unit='UNIT_MILITARY_ENGINEER' AND PrereqBuilding='BUILDING_ARMORY';
+INSERT INTO Unit_BuildingPrereqs (Unit, PrereqBuilding, NumSupported) VALUES
+('UNIT_MILITARY_ENGINEER', 'BUILDING_STABLE', -1),
+('UNIT_MILITARY_ENGINEER', 'BUILDING_ORDU', -1),
+('UNIT_MILITARY_ENGINEER', 'BUILDING_BASILIKOI_PAIDES', -1);
+
+--武僧
+--+1劳动力
+UPDATE Units SET BuildCharges=1 WHERE UnitType='UNIT_WARRIOR_MONK';
+--修路
+INSERT INTO Route_ValidBuildUnits (RouteType , UnitType) VALUES
+('ROUTE_ANCIENT_ROAD' , 'UNIT_WARRIOR_MONK'),
+('ROUTE_MEDIEVAL_ROAD' , 'UNIT_WARRIOR_MONK');
+--无影拳：+5力
+
+--迷魂幕：防御远程+7力
+
+--弟子：周围单位+1移动
+
+--
+
+--尼杭战士--
+--不必购买
+UPDATE Units SET MustPurchase=0 WHERE UnitType='UNIT_LAHORE_NIHANG';
+--
+
+--
+
+--蛮族单位
+--升级
+INSERT INTO UnitUpgrades (Unit, UpgradeUnit) VALUES
+('UNIT_BARBARIAN_HORSE_ARCHER', 'UNIT_HORSEMAN'),
+('UNIT_BARBARIAN_HORSEMAN', 'UNIT_CROSSBOWMAN');
+
+--考古学家 400→300
+UPDATE Units SET Cost=300 WHERE UnitType='UNIT_ARCHAEOLOGIST';
+
+--驱逐舰、潜艇、航母+1速
+UPDATE Units SET BaseMoves=5 WHERE UnitType='UNIT_DESTROYER';
+UPDATE Units SET BaseMoves=4 WHERE UnitType='UNIT_SUBMARINE';
+UPDATE Units SET BaseMoves=4 WHERE UnitType='UNIT_AIRCRAFT_CARRIER';
+
+--装甲舰、驱逐舰、航母远程攻击
+UPDATE Units SET RangedCombat=80, Range=1 WHERE UnitType='UNIT_DESTROYER';
+UPDATE Units SET RangedCombat=65, Range=1 WHERE UnitType='UNIT_IRONCLAD';
+UPDATE Units SET Combat=80 WHERE UnitType='UNIT_MISSILE_CRUISER';
+UPDATE Units SET Combat=70, RangedCombat=65, Range=1 WHERE UnitType='UNIT_AIRCRAFT_CARRIER';
+INSERT INTO TypeTags (Type, Tag) VALUES
+('UNIT_DESTROYER', 'CLASS_NAVAL_RANGED'),
+('UNIT_IRONCLAD', 'CLASS_NAVAL_RANGED'),
+('UNIT_AIRCRAFT_CARRIER', 'CLASS_NAVAL_RANGED');
+
+--步兵吃硝石
+
+--破城锤攻城塔动员淘汰
+

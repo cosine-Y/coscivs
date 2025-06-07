@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" Language="zh_Hans_CN">
+	  <Text>城市中每有一点人口，0.5 [Icon_Food] 食物、+1 [ICON_PRODUCTION] 生产力。</Text>
+	</Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2" Language="zh_Hans_CN">
+	  <Text>所有城市+15% [ICON_Science] 科技值。</Text>
+	</Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_ETHIOPIA" Language="zh_Hans_CN">
+	  <Text>宫殿+2 [ICON_AMENITIES] 宜居度，并为本城+1全部产出。市政广场建筑、外交区建筑使所有城市+1全部产出。</Text>
+	</Replace>
+	<Row Tag="LOC_POLICY_PIONEER_DESCRIPTION_Cos" Language="zh_Hans_CN">
+	  <Text>拥有驻军单位的城市+2 [ICON_AMENITIES] 宜居度，+10% [ICON_PRODUCTION] 生产力。</Text>
+	</Row>
+	<Row Tag="LOC_POLICY_PIONEER_NAME_Cos" Language="zh_Hans_CN">
+	  <Text>先锋队</Text>
+	</Row>
+	<Row Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_DESCRIPTION_Cos" Language="zh_Hans_CN">
+	  <Text>工业区中的建筑将产出额外的 [ICON_PRODUCTION] 生产力：如城市 [ICON_Citizen] 人口大于等于15点，+50% [ICON_PRODUCTION] 生产力；如区域拥有至少+4基础相邻加成，+50% [ICON_PRODUCTION] 生产力。</Text>
+	</Row>
+	<Row Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME_Cos" Language="zh_Hans_CN">
+	  <Text>工业革命</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_AXIS_COMBAT_Cos" Language="zh_Hans_CN">
+      <Text>每个有效同盟提供+4 [ICON_Strength] 战斗力。</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_AXIS_COMBAT_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>每个有效同盟提供+4 [ICON_Strength] 战斗力。</Text>
+	</Row>
+	<Row Tag="LOC_POLICY_AXIS_DESCRIPTION_Cos" Language="zh_Hans_CN">
+	  <Text>每个有效同盟为所有战斗单位提供+4 [ICON_Strength] 战斗力。</Text>
+	</Row>
+	<Row Tag="LOC_POLICY_AXIS_NAME_Cos" Language="zh_Hans_CN">
+	  <Text>轴心国</Text>
+	</Row>
+	<Row Tag="LOC_POLICY_COMBAT_READINESS_DESCRIPTION_Cos" Language="zh_Hans_CN">
+	  <Text>建造军营、港口、航空港和这些区域中的建筑时+30% [ICON_PRODUCTION] 生产力。</Text>
+	</Row>
+	<Row Tag="LOC_POLICY_COMBAT_READINESS_NAME_Cos" Language="zh_Hans_CN">
+	  <Text>战备</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

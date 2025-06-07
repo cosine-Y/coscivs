@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- 平伽拉 -->
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城+15% [ICON_SCIENCE] 科技值和 [ICON_Culture] 文化值。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城每有一点人口，+1 [ICON_Culture] 文化值。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城每有一点人口，+1 [ICON_SCIENCE] 科技值。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城 [ICON_GREATWORK_LANDSCAPE] 艺术、 [ICON_GREATWORK_MUSIC] 音乐、 [ICON_GreatWork_WRITING] 著作和 [ICON_GreatWork_Artifact] 文物+2 [ICON_Culture] 文化值，同时提供的 [ICON_Tourism] 旅游业绩+100%。</Text>
+	</Replace>
+    <!-- 马格努斯 -->
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城收获资源和移除地貌的产出+50%。就职需要4回合。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城生产的开拓者不消耗 [ICON_CITIZEN] 人口。本城训练的平民单位+1 [ICON_Movement] 移动力。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城+20%余粮。以本城为终点的国内 [ICON_TRADEROUTE] 贸易路线为起源城市+2 [ICON_FOOD] 食物、+2 [ICON_Production] 生产力。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城生产单位所需战略资源花费减少80%。本城所有拥有已改良资源的单元格+1 [ICON_Production] 生产力。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城每有一点人口，+1 [ICON_PRODUCTION] 生产力。燃煤发电厂、燃油发电厂与核电站+2 [ICON_Production] 生产力（不影响辐射产出），且本城消耗资源所产生的 [ICON_POWER] 电力+1。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城从附近所有建筑获得辐射 [ICON_PRODUCTION] 生产力加成，而不仅限于首个建筑。</Text>
+	</Replace>
+    <Row Tag="LOC_ABILITY_EXPEDITION_CIVILIAN_MOVEMENT_BONUS_NAME_Cos" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Movement] 移动力。（给养保障）</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_EXPEDITION_CIVILIAN_MOVEMENT_BONUS_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Movement] 移动力。（给养保障）</Text>
+    </Row>
+    <!-- 莫克夏 -->
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城对相邻城市释放的宗教压力强度加倍。+1 [ICON_GREATPROPHET] 大预言家点数。本城每有一处专业化区域，+2 [ICON_FAITH] 信仰值、额外+1 [ICON_GREATPROPHET] 大预言家点数。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有战斗和宗教单位在本城驻扎时，生命回复+100。本城中生产的使徒和武僧首次升级时将额外获得1次升级。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>在此城的单元格中进行神学战斗时+10 [ICON_Religion] 宗教战斗力。本城可以使用 [ICON_Faith] 信仰值购买平民单位，使用 [ICON_GOLD] 金币和 [ICON_FAITH] 信仰值在此城中购买单位的花费-15%。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>城市将不会受到来自非 [ICON_Governor] 总督所属文明宗教的压力。建筑和奇观建成时可获得等同修建所花费 [ICON_Production] 生产力25%的 [ICON_FAITH] 信仰值。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城每有一点人口，+1 [ICON_FAITH] 信仰值。本城获得等同于 [ICON_FAITH] 信仰值产出10%的 [ICON_SCIENCE] 科技值和 [ICON_CULTURE] 文化值。</Text>
+	</Replace>
+    <!-- 瑞纳 -->
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城获得新单元格的速度加快100%，购买山脉、海岸、海洋单元格的费用降低50%。经过城市的每条外国 [ICON_TRADEROUTE] 贸易路线使本城每回合+3 [ICON_Gold] 金币。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城所有未改良的地貌+2 [ICON_Gold] 金币，并使相邻单元格+1魅力。本城所有魅力值为惊艳的单元格+1 [ICON_Culture] 文化值。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城的商业中心和港口的相邻加成+100%。如果本城同时有商业中心和港口，+1 [ICON_TRADEROUTE] 贸易路线容量。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城每有一点人口，+2 [ICON_Gold] 金币；每有一处专业化区域，+4 [ICON_Gold] 金币。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城所有离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂+2 [ICON_Gold] 金币、+1 [ICON_SCIENCE] 科技值；本城的水电站坝+8 [ICON_Gold] 金币。这些改良设施和建筑额外产出+2点 [ICON_POWER] 电力。</Text>
+	</Replace>
+    <!-- 梁 -->
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城生产的所有有劳动力的单位+1劳动力。就职需要4回合。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>环境效应无法对本城的改良设施、建筑与区域造成损害。本城建造区域时+50% [ICON_Production] 生产力。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城的海洋资源+1 [ICON_Production] 生产力，本城的渔场改良设施+1 [ICON_Production] 生产力。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城的专业化区域+50%相邻加成。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城的市中心、水渠与社区区域+2 [ICON_HOUSING] 住房；每个水渠、运河与堤坝区域+1 [ICON_AMENITIES] 宜居度。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>能够在本城建造改良设施市立公园。本城的市立公园、海滨度假区、滑雪场+3 [ICON_CULTURE] 文化值。</Text>
+	</Replace>
+    <!-- 维克多 -->
+
+    <!-- 阿玛尼 -->
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>可派遣至城邦，效力等同于2名 [ICON_ENVOY] 使者。也可派遣至其他文明的 [ICON_Capital] 首都。就职需要3回合。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>派遣到城邦后将获得该城邦的奢侈品资源。若派遣到其他文明的 [ICON_Capital] 首都，通向该城的 [ICON_TRADEROUTE] 贸易路线+4 [ICON_Gold] 金币。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>派遣到城邦后将储备该城邦的战略资源。成为宗主国后，获得的战略资源储备将加倍。若派遣到其他文明的 [ICON_Capital] 首都，通向该城的 [ICON_TRADEROUTE] 贸易路线+2 [ICON_Production] 生产力。</Text>
+	</Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>9个单元格内其他文明的城市每回合将失去8点忠诚度。</Text>
+	</Replace>
+  </LocalizedText>	
+</GameData>

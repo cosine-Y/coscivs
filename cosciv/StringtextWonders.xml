@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+	<Replace Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>此奇观4个单元格内的每个营地、牧场、渔船和种植园改良设施为所在城市+1 [ICON_AMENITIES] 宜居度。必须建造在营地改良设施旁。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+1军事政策槽位。提供同堡垒改良设施一样的防御加成。必须建立在相邻军营区域的丘陵上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有城市+20% [ICON_SCIENCE] 科技值、+10% [ICON_PRODUCTION] 生产力，若城市的3个单元格范围内有至少5个雪地或雪地丘陵单元格（且为玩家所拥有），则这些产出翻倍。国境内所有雪地和雪地丘陵单元格+2 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力。必须建造在相邻学院区域（其中须建有研究实验室）的雪地或雪地丘陵单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>在此城市中建成奇观（包括阿帕达纳宫）时，获得2名 [ICON_ENVOY] 使者。必须建造在 [ICON_Capital] 首都的市中心旁。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有城市+2 [ICON_GOLD] 金币。国境内所有单元格+2魅力。魅力值为惊艳的单元格+1 [ICON_Culture] 文化值。魅力值为迷人的单元格中的市中心、社区和保护区+1 [ICON_Culture] 文化值；惊艳的单元格则改为+3。必须建造在相邻市中心的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>国境内所有沼泽单元格+2 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力。本城所有泛滥平原单元格+1 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力。必须建在泛滥平原或沼泽上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城的 [ICON_GREATWORK_LANDSCAPE] 艺术巨作产出3倍的 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。必须沿河建造。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有运河区域提供等同于其 [ICON_Gold] 金币基础产出的 [ICON_Production] 生产力。建造运河区域时+100% [ICON_Production] 生产力。开始修建巴拿马运河时，将在满足条件的相邻单元格自动开始建造1或2个运河，完成巴拿马运河的同时运河也将完成。建成的巴拿马运河将同样被视为运河：如 [ICON_TRADEROUTE] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_GOLD] 金币加倍。将巴拿马运河视为水域单元格时，必须有两个相邻巴拿马运河的且关于其对称的单元格满足：两个单元格均可以修建运河；或是一个单元格可以修建运河，一个单元格是城市/水域。如想使用巴拿马运河连接两座城市，那么这两座城市必须有至少一座相邻水域单元格或已经被运河连接至水域单元格。必须建在平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城+20% [ICON_Culture] 文化值。免费获得1个随机原子能时代市政的 [ICON_CivicBoosted] 鼓舞。所有剧院广场区域提供等同于其 [ICON_Culture] 文化值相邻加成的 [ICON_Gold] 金币。所有区域的 [ICON_Culture] 文化值相邻加成也将提供等量旅游业绩。必须建造在相邻剧院广场区域的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_TORRE_DE_BELEM_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+1 [ICON_TRADEROUTE] 贸易路线容量。目的地城市每有1处奢侈品资源，从此城起源的国际 [ICON_TRADEROUTE] 贸易路线便+2 [ICON_GOLD] 金币。贝伦塔建造完成后，所有城市将直接获得当前所能建造且 [ICON_PRODUCTION] 生产力花费最低的市中心建筑。必须建造在与陆地和港口区域相邻的海岸单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>目前所有单位获得1级强化升级。考古学家可在没有开放边界的情况下进入外国。必须建造相邻军营区域（其中需建有兵营或马厩）的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_JEBEL_BARKAL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>战略资源储备+20（标准速度下）。每回合获得6点 [ICON_RESOURCE_IRON] 铁。6个单元格内的所有城市+4 [ICON_Faith] 信仰值。必须建造在沙漠丘陵上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_POTALA_PALACE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+1外交政策槽位。+1外交胜利点数。公民可在山脉单元格上工作。国境内山脉单元格+1 [ICON_Faith] 信仰值、+1 [ICON_FOOD] 食物。必须建造在相邻山脉的丘陵上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_BIG_BEN_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+1经济政策槽位。建成后，国库的 [ICON_GOLD] 金币立即增加50%。必须建造在相邻商业中心（其中需建有银行）且沿河的单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>免费获得一名 [ICON_GREATADMIRAL] 海军统帅。所有海军单位和水运单位+1 [ICON_MOVEMENT] 移动力。必须建造在与陆地和港口区域（其中需建有灯塔）相邻的海岸单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+1 [ICON_TRADEROUTE] 贸易路线容量。本城3个单元格以内每有一个加成资源，从本城起源的国际和国内 [ICON_TRADEROUTE] 贸易路线+2 [ICON_GOLD] 金币。必须建造在商业中心（其中需建有市场）旁。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>免费获得所有远古和古典科技的 [ICON_TechBoosted] 尤里卡。其他玩家招募 [ICON_GREATSCIENTIST] 大科学家时将随机获得1个 [ICON_TECHBOOSTED] 尤里卡。必须建造在相邻学院区域（其中需建有图书馆）的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所在河流的泛滥平原单元格免受洪水侵袭带来的损害（但从洪水获得 [ICON_FOOD] 食物和 [ICON_PRODUCTION] 生产力加成的概率减半）。本城的泛滥平原单元格+1 [ICON_FAITH] 信仰值。本城每次缓解洪水破坏后，属于该河流的泛滥平原单元格额外+1 [ICON_FAITH] 信仰值。必须建造在泛滥平原上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_KOTOKU_IN_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城+20% [ICON_Faith] 信仰值。所有武僧+1 [ICON_Movement] 移动力、+1劳动力。若玩家已创立宗教，或此玩家/城市拥有主流宗教，则赠送4名武僧。必须建造在圣地区域（其中需建有寺庙）旁。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>获得3名 [ICON_ENVOY] 使者。对于每一类城邦，若是其中至少1个的宗主国，本城中此类城邦对应的产出+15%（若为军事城邦，则建造单位时+15% [ICON_PRODUCTION] 生产力；若为工业城邦，则建造区域、建筑和奇观时+15% [ICON_PRODUCTION] 生产力）；若你是其中至少2个的宗主国，所有城市中此类城邦对应的产出额外+15%。必须建造在与海岸相邻的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>陆地单位无需上船便可从桥上跨越。大桥的效果与现代道路相同，并会在三个单元格范围内的陆地单元格中建造现代道路（若未修建）。本城+3 [ICON_AMENITIES] 宜居度，所有单元格+4魅力，改良设施与国家公园+100% [ICON_TOURISM] 旅游业绩。以本城为终点的国内 [ICON_TRADEROUTE] 贸易路线为起源城市+8 [ICON_GOLD] 金币。建造者和开拓者+1 [ICON_Movement] 移动力。如 [ICON_TRADEROUTE] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_GOLD] 金币加倍。必须建造在相隔一个单元格并关于大桥对称的两个陆地单元格中间的海岸单元格上，且大桥左右两侧必须各有至少1个水域单元格。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>建造者获得1点额外劳动力。获得一名建造者。必须建造在平坦的沙漠上（包括沙漠泛滥平原）。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>[ICON_GREATWORK_RELIC] 遗物和圣城的 [ICON_TOURISM] 旅游业绩产值不会被其他已解锁“启蒙运动”市政的文明削弱。国境内所有海滨度假区产出的 [ICON_TOURISM] 旅游业绩+100%。建成后，积累的 [ICON_FAITH] 信仰值立即增加50%。必须建造在丘陵上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>若未获得大预言家，则免费获得一名 [ICON_GREATPROPHET] 大预言家；若已创建宗教，则改为获得一名使徒。 [ICON_GREATPROPHET] 大预言家可在巨石阵（代替圣地）创立一个宗教。必须建造在相邻 [ICON_RESOURCE_STONE] 石头的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+1 [ICON_TRADEROUTE] 贸易路线容量。获得1个商人单位。使用 [ICON_GOLD] 金币和 [ICON_FAITH] 信仰值购买商人的花费-30%。必须建造在与陆地和港口区域相邻的海岸单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有城市+15%余粮。有粮仓的城市境内有淡水的单元格+1 [ICON_FOOD] 食物。必须沿河建造。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城+20% [ICON_PRODUCTION] 生产力。本城中每个矿山和采石场+1 [ICON_PRODUCTION] 生产力。本城可以在平坦地形上建造矿山改良设施。6个单元格内的所有城市+6 [ICON_PRODUCTION] 生产力。必须建造在相邻工业区（其中需建有工厂）且沿河的单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有城市+6 [ICON_Culture] 文化值、+2 [ICON_Amenities] 宜居度。必须建造在娱乐中心区域（其中需建有体育场）旁。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>商业中心、剧院广场及工业区可从山脉单元格获得标准相邻加成。公民可在山脉单元格上工作。国境内山脉单元格+1 [ICON_FOOD] 食物。必须建造在无火山的山脉单元格中。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_MEENAKSHI_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>获得2名上师。购买上师的花费-30%。上师使相邻的单位+5 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力、+1 [ICON_Movement] 移动力（不叠加）。必须建造在圣地区域旁，且必须已创立宗教。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城所有海岸或湖泊单元格+1 [ICON_SCIENCE] 科技值、+1 [ICON_FAITH] 信仰值、+1 [ICON_CULTURE] 文化值。[ICON_GREATENGINEER] 大工程师拥有额外1点使用次数。必须建造在港口区域旁。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_BOLSHOI_THEATRE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>免费获得2个随机市政。此城市境内每有 [ICON_GreatPerson] 伟人消耗1点次数，城市边界便扩张3个单元格。必须建造在相邻剧院广场区域的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+2外交胜利点数。获得2名使徒。必须建造在相邻圣地区域（其中需建有寺庙）的树林中，且必须已创立宗教。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城+20% [ICON_SCIENCE] 科技值。免费获得2个随机科技。必须建造在相邻学院区域（其中需建有大学）的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城所有沙漠、沙漠丘陵、沙漠山脉单元格+2 [ICON_FOOD] 食物、+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力。必须建造在平坦的沙漠上（包括沙漠泛滥平原）。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>国境内雨林单元格+1 [ICON_CULTURE] 文化值。本城所有雨林单元格额外+1 [ICON_PRODUCTION] 生产力、+1 [ICON_CULTURE] 文化值。必须建造在雨林单元格中。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有 [ICON_TradeRoute] 贸易路线+1 [ICON_SCIENCE] 科技值。通往本城的国内 [ICON_TradeRoute] 贸易路线额外+2 [ICON_SCIENCE] 科技值、+1 [ICON_FAITH] 信仰值。其他文明通往该城的 [ICON_TradeRoute] 贸易路线能为起源城市+1 [ICON_SCIENCE] 科技值、+1 [ICON_Gold] 金币，为该城+2 [ICON_SCIENCE] 科技值。必须建造在相邻学院区域（其中需建有大学）的沙漠或沙漠丘陵上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>招募 [ICON_GreatPerson] 伟人所花费的 [ICON_FAITH] 信仰值-25%。本城的专业化区域+2对应 [ICON_GREATPERSON] 伟人点数（剧院广场区域提供 [ICON_GREATWRITER] 大作家、[ICON_GreatArtist] 大艺术家、[ICON_GreatMusician] 大音乐家点数）。必须建造在丘陵上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_BIOSPHERE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂和水电站坝产出的 [ICON_POWER] 电力+300%。这些建筑和改良设施将提供等同于其 [ICON_POWER] 电力的 [ICON_TOURISM] 旅游业绩。国境内的雨林和沼泽为相邻的单元格提供的魅力+1。所有城市境内每有一种地貌或自然奇观（不包括燃烧或烧毁的树林、雨林），+3% [ICON_SCIENCE] 科技值。必须建造在相邻社区且沿河的单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_MONT_ST_MICHEL_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有未获得殉道者升级的使徒将自动获得该升级。获得1个[ICON_GreatWork_Relic] 遗物。传教士和使徒无视控制区。必须建在泛滥平原或沼泽上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>所有有传教次数的单位的传教次数+1。每有一座非自己创建的城市，所有城市+5% [ICON_FAITH] 信仰值。必须建造在圣地区域旁的平坦地形上，且必须已创立宗教。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>本城产出的宗教 [ICON_TOURISM] 旅游业绩+100%。本城所有冻土、冻土丘陵、冻土山脉单元格+1 [ICON_FOOD] 食物、+1 [ICON_CULTURE] 文化值、+1 [ICON_PRODUCTION] 生产力、+1 [ICON_FAITH] 信仰值。必须建造在市中心旁。</Text>
+	</Replace>
+  	<Replace Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>提供2点或以上时代得分的历史时刻所提供的时代得分+1。每获得1点时代得分，可同时获得65 [ICON_GOLD] 金币。必须沿河建造。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>每生产一个海军单位，便会获得一个同样的单位。所有能进行远程攻击的海军单位+1 [ICON_RANGE] 射程。必须建造在相邻工业区的海岸单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_ANGKOR_WAT_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>当前所有城市+1 [ICON_CITIZEN] 人口，新建立的城市+1初始 [ICON_CITIZEN] 人口。所有城市+1 [ICON_HOUSING] 住房。必须建造在水渠旁。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>获得3个 [ICON_GOVERNOR] 总督头衔。所有与原始 [ICON_CAPITAL] 首都不在同一大陆、且拥有 [ICON_GOVERNOR] 总督的城市+15% [ICON_PRODUCTION] 生产力、+15% [ICON_FAITH] 信仰值、+20% [ICON_GOLD] 金币。必须建造在市政广场旁。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>港口提供等同于其相邻加成的 [ICON_CULTURE] 文化值。必须建造在与陆地和港口区域相邻的海岸单元格上。
+	  </Text>
+	</Replace>
+  	<Replace Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>获得3名 [ICON_ENVOY] 使者。成为一座城邦的宗主国后，每回合从此城邦获得的 [ICON_FAVOR] 外交支持+100%。必须沿河建造。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>每相邻1个湖泊单元格，+1 [ICON_AMENITIES] 宜居度。国境内湖泊单元格和相邻湖泊的陆地单元格+1 [ICON_FOOD] 食物、+1 [ICON_PRODUCTION] 生产力。必须建造在与陆地相邻的湖泊单元格上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION" Language="zh_Hans_CN">
+	 <Text>获得3名枪兵、3名弓箭手、1台破城槌。所有抗骑兵单位+1 [ICON_Movement] 移动力。生产抗骑兵单位时+50% [ICON_Production] 生产力。必须建造在相邻军营区域（其中需建有兵营）的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+1通配符政策槽位。必须建造在相邻市中心的平坦地形上。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_STATUE_LIBERTY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	  <Text>+4外交胜利点数。获得2名开拓者。6个单元格内的所有城市忠诚度固定为100%。必须建造在与陆地和港口区域相邻的海岸单元格上。</Text>
+	</Replace>
+	<Row Tag="LOC_ABILITY_IGNORE_ZOC_ST_MICHEL_NAME_Cos" Language="zh_Hans_CN">
+	  <Text>无视控制区。（圣米歇尔山）</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_IGNORE_ZOC_ST_MICHEL_DESCRIPTION_Cos" Language="zh_Hans_CN">
+	  <Text>无视控制区。（圣米歇尔山）</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_BONUS_RANGE_VENETIAN_ARSENAL_NAME_Cos" Language="zh_Hans_CN">
+	  <Text>+1 [ICON_RANGE] 射程。（威尼斯军械库）</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_BONUS_RANGE_VENETIAN_ARSENAL_DESCRIPTION_Cos" Language="zh_Hans_CN">
+	  <Text>+1 [ICON_RANGE] 射程。（威尼斯军械库）</Text>
+	</Row>
+  </LocalizedText>
+</GameData>

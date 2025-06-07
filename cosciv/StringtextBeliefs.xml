@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>没有专业化区域的城市建造区域时+65% [ICON_Production] 生产力。</Text>
+    </Replace>
+	  <Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>魅力不小于3的单元格+1 [ICON_FAITH] 信仰值，若魅力值大于4，额外+1 [ICON_FAITH] 信仰值。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>生产所有时代的军事单位时+25% [ICON_Production] 生产力，消耗的战略资源减少20%。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>选择后即可在首都中获得1个建造者。粮仓+1 [ICON_Food] 食物，所有城市+10%余粮。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>选择后忽略普通科技要求，显示 [ICON_RESOURCE_HORSES] 马、 [ICON_RESOURCE_IRON] 铁战略资源。所有战略资源+1 [ICON_FAITH] 信仰值，改良后的战略资源额外+1 [ICON_Production] 生产力。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>地热裂缝和火山土+2 [ICON_FAITH] 信仰值、+2 [ICON_SCIENCE] 科技值。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>所有泛滥平原+1 [ICON_Gold] 金币。沼泽、绿洲、沙漠泛滥平原+2 [ICON_Production] 生产力。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_INITIATION_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>清除一个蛮族哨站时，+100 [ICON_FAITH] 信仰值。清除蛮族哨站的单位回复100点生命值。可以生产或使用 [ICON_FAITH] 信仰值购买蛮族骑手和蛮族弓骑手。每拥有一座城市，这些单位同其他蛮族单位作战时便+7 [ICON_Strength] 战斗力。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>冻土和冻土丘陵单元格可为圣地提供标准相邻加成。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>沙漠和沙漠丘陵单元格可为圣地提供标准相邻加成。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>雨林单元格可为圣地提供标准相邻加成。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>种植园+1 [ICON_Culture] 文化值。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_DIVINE_SPARK_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>圣地（大预言家）、学院（大科学家）、剧院广场（大作家）产出额外1点伟人点数。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>采石场+2 [ICON_FAITH] 信仰值、+1 [ICON_CULTURE] 文化值。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>牧场+1 [ICON_CULTURE] 文化值、+1 [ICON_Gold] 金币。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>单位位于圣地或相邻单元格时，每回合生命回复量+30。相邻圣地的单元格+1 [ICON_CULTURE] 文化值。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_WAR_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>击杀位于圣地区域8个单元格范围内的战斗单位时，可获得等于其战斗力50%的 [ICON_FAITH] 信仰值（标准速度下）；击杀位于市中心区域1个单元格范围内的战斗单位时，可获得等于其战斗力1000%的 [ICON_FAITH] 信仰值（标准速度下）。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>建造奇观时+15% [ICON_Production] 生产力。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>改良奢侈品、加成和战略资源的矿山+2 [ICON_FAITH] 信仰值。</Text>
+	  </Replace>
+    <Replace Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+	    <Text>营地+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力。</Text>
+	  </Replace>
+  </LocalizedText>	
+</GameData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+    <Replace Tag="LOC_ABILITY_HYPASPIST_SIEGE_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>攻击区域防御时+5</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_HYPASPIST_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>攻击区域防御时+5 [ICON_Strength] 战斗力。[NEWLINE][ICON_Bullet]+50%支援加成。</Text>
+	  </Replace>
+    <Row Tag="LOC_TRAIT_FALLBABYLON_ATTACK_BONUS_DESCRIPTION_CosPersia" Language="zh_Hans_CN">
+      <Text>进攻时+3 [ICON_Strength] 战斗力。（居鲁士）</Text>
+    </Row>
+    <Replace Tag="LOC_ABILITY_NADER_SHAH_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>攻击满生命值的单位时+7 [ICON_Strength] 战斗力。（纳迪尔沙阿）</Text>
+    </Replace>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_ADDITIONAL_ATTACK_NAME_CosMacedon" Language="zh_Hans_CN">
+      <Text>相邻大将军时，+1额外攻击。（亚历山大）</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_GREAT_GENERAL_ADDITIONAL_ATTACK_DESCRIPTION_CosMacedon" Language="zh_Hans_CN">
+      <Text>相邻大将军时，+1额外攻击。（亚历山大）</Text>
+    </Row>
+    <Replace Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>获得的战斗经验值+50%。（托奇）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_TOQUI_XP_FROM_GOVERNOR_NOT_FOUNDED_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>获得的战斗经验值+100%。（托奇）</Text>
+    </Replace>
+    <Row Tag="LOC_TRAIT_COMBAT_BONUS_VS_FREE_CITY_DESCRIPTION_CosMapuche" Language="zh_Hans_CN">
+      <Text>与自由城市作战时+{1_Amount}</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_COMBAT_BONUS_VS_GOLDEN_AGE_CIV_DESCRIPTION_CosMapuche" Language="zh_Hans_CN">
+      <Text>与处在黄金/英雄时代中的文明作战时+{1_Amount}</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_COMBAT_BONUS_VS_FREE_CITY_DESCRIPTION_CosCanada" Language="zh_Hans_CN">
+      <Text>与自由城市作战时+{1_Amount}</Text>
+    </Row>
+  </LocalizedText>	
+</GameData>

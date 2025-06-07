@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_DISTRICT_CANAL_GOLD_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_GOLD] 金币来自相邻运河。</Text>
+    </Row>
+    <Row Tag="LOC_OASIS_CULTURE_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻绿洲单元格。</Text>
+    </Row>
+    <Row Tag="LOC_NATURALWONDER_CULTURE_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻自然奇观单元格。</Text>
+    </Row>
+    <Row Tag="LOC_MARSH_SCIENCE_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻沼泽单元格。</Text>
+    </Row>
+    <Row Tag="LOC_COAST_SCIENCE_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻海岸单元格。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NEIGHBORHOOD_SCIENCE_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻社区。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NEIGHBORHOOD_GOLD_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_GOLD] 金币来自相邻社区。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NEIGHBORHOOD_FAITH_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻社区。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_NEIGHBORHOOD_CULTURE_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻社区。</Text>
+    </Row>
+    <Row Tag="LOC_OASIS_FAITH_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻绿洲单元格。</Text>
+    </Row>
+    <Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>连接两块水域单元格或将一块水域单元格与市中心连接。如 [ICON_TRADEROUTE] 贸易路线途径此处，其将从目的地的区域处获得成倍 [ICON_GOLD] 金币。运河可笔直穿过单元格，也可在其中进行60度转向。无法建造三向连接运河，且运河在其所建水路的两侧皆必须含有一个完整的陆地单元格。每有一个运河，国境内所有运河+3 [ICON_GOLD] 金币。必须建造在平坦地形上。军事工程师可消耗1点劳动力来完成运河25%的修建进度。[NEWLINE]为相邻单元格提供+1魅力。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>区域以相邻河流、湖泊、绿洲或山脉为水源，为该城市引入淡水。如果该城市水源提供的 [ICON_Housing] 住房不足5，将补充至6，否则水源提供的 [ICON_Housing] 住房数量+2。[NEWLINE]若与地热裂缝相邻，+1 [ICON_Amenities] 宜居度。干旱时可防止 [ICON_Food] 食物损失。[NEWLINE]必须修建在与市中心相邻的单元格中，且水渠所在单元格至少有一条边相邻水源但不相邻市中心。[NEWLINE]军事工程师可消耗1点劳动力来完成水渠25%的修建进度。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_DAM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建造在泛滥平原单元格上的区域，可改善此河流流域旁的民生质量。所在河流的泛滥平原单元格免受洪水侵袭带来的损害（但从洪水获得 [ICON_FOOD] 食物和 [ICON_PRODUCTION] 生产力加成的概率减半），还可在干旱时防止 [ICON_Food] 食物损失。[NEWLINE]必须建造在泛滥平原上，且每条河流的泛滥平原中仅能建造1个（有文明建成便视为已建造）。必须有同一条河流穿过堤坝单元格相邻的两条边。[NEWLINE]军事工程师可消耗1点劳动力来完成堤坝25%的修建进度。[NEWLINE]为相邻单元格提供+1魅力。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可再生水力发电向城市提供6点 [ICON_POWER] 电力。本城每次缓解洪水破坏后，属于该河流的泛滥平原单元格额外+1 [ICON_GOLD] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建成后对无主单元格施放文化炸弹。为相邻单元格提供+1魅力。+1 [ICON_Housing] 住房，并根据所在单元格魅力提供额外 [ICON_Housing] 住房：[NEWLINE]惊艳的：额外+2 [ICON_Housing] 住房；[NEWLINE]迷人的：额外+1 [ICON_Housing] 住房；[NEWLINE]普通的：不额外提供 [ICON_Housing] 住房；[NEWLINE]无吸引力的：-1 [ICON_Housing] 住房；[NEWLINE]令人厌恶的：-1 [ICON_Housing] 住房。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+4 [ICON_Housing] 住房，并根据所在单元格魅力提供额外 [ICON_Housing] 住房：[NEWLINE]惊艳的：额外+2 [ICON_Housing] 住房；[NEWLINE]迷人的：额外+1 [ICON_Housing] 住房；[NEWLINE]普通的：不额外提供 [ICON_Housing] 住房；[NEWLINE]无吸引力的：-1 [ICON_Housing] 住房；[NEWLINE]令人厌恶的：-2 [ICON_Housing] 住房。[NEWLINE]为相邻学院、圣地、商业中心和剧院广场提供大量加成。</Text>
+     </Replace>
+    <Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>以本城为终点的国内 [ICON_TRADEROUTE] 贸易路线为起源城市+2 [ICON_FOOD] 食物。本城农场、牧场、渔船和种植园改良的加成资源+2 [ICON_GOLD] 金币。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+     </Replace>
+    <Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+4 [ICON_Tourism] 旅游业绩。本城每有一点人口，+1 [ICON_Gold] 金币。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_FLOOD_BARRIER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>能保护该城市的海岸低地单元格不受洪水侵袭。如在城市单元格受到洪水侵袭后修建，则可将这些单元格完全修复。但沉入海底的单元格无法复原。必须修建在拥有1个或以上海岸低地单元格的城市中，初次修建与每回合维护的成本将根据城中海岸低地数量和当前海平面高度而定。城市被占领时不会遭到掠夺。[NEWLINE]军事工程师可消耗1点劳动力来完成拦洪坝25%的修建进度。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城农场改良的加成资源+1 [ICON_FOOD] 食物。需要城市沿河建造。</Text>
+    </Replace>
+    <Row Tag="LOC_BUILDING_SEWER_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>本城的市中心和每个社区+1 [ICON_AMENITIES] 宜居度。</Text>
+    </Row>
+    <Replace Tag="LOC_BUILDING_STAR_FORT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市+100点外部防御力。解锁“保护地球”市政后+3 [ICON_TOURISM] 旅游业绩。此城不受“破城槌”或“攻城塔”特效影响。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为本城具有区域防御能力的区域提供城墙。城墙使市中心和军营能发起 [ICON_RANGED] 远程攻击。必须先击毁城墙方能进攻城市。城市+100点外部防御力。解锁“保护地球”市政后+1 [ICON_TOURISM] 旅游业绩。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_CASTLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市+100点外部防御力。解锁“保护地球”市政后+2 [ICON_TOURISM] 旅游业绩。此城不受“破城槌”特效影响。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_AERODROME_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可用于建造和存放飞机的区域。城市可以训练空中单位。[NEWLINE]为相邻单元格提供-1魅力。[NEWLINE]不能建在丘陵上。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_HANGAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城训练的空中单位+25%战斗经验值。航空港+1空中单位槽位。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_AIRPORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城训练的空中单位+50%战斗经验值。航空港+1空中单位槽位。+1 [ICON_TradeRoute] 贸易路线容量。为以本城为起点的国际和国内 [ICON_TradeRoute] 贸易路线+2 [ICON_PRODUCTION] 生产力，以本城为终点的国内 [ICON_TRADEROUTE] 贸易路线为起源城市+4 [ICON_GOLD] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+2 [ICON_Amenities] 宜居度。解锁“保护地球”市政后+1 [ICON_TOURISM] 旅游业绩。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_FERRIS_WHEEL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+2 [ICON_Amenities] 宜居度。+2 [ICON_TOURISM] 旅游业绩。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Amenities] 宜居度，该加成可扩展到6个单元格内的每个市中心（城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成）。本城额外+1 [ICON_Amenities] 宜居度。本城所有沼泽和雨林单元格+1 [ICON_SCIENCE] 科技值。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Amenities] 宜居度，该加成可扩展到9个单元格内的每个市中心（城市仅能应用1次此类加成，因此市中心9个单元格以内相同的此建筑不会再额外提供加成）。本城额外+1 [ICON_Amenities] 宜居度。本城所有海岸资源和礁石单元格+1 [ICON_SCIENCE] 科技值。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Amenities] 宜居度（若[ICON_POWER] 供电充足，额外+2 [ICON_AMENITIES] 宜居度），该加成可扩展到6个单元格内的每个市中心（城市仅能应用1次此类加成，因此市中心9个单元格以内相同的此建筑不会再额外提供加成）。本城额外+1 [ICON_Amenities] 宜居度。若本城 [ICON_CITIZEN] 人口不小于10，+2 [ICON_TOURISM] 旅游业绩；若本城 [ICON_CITIZEN] 人口不小于20，+5 [ICON_TOURISM] 旅游业绩，同时本城+5%全部产出。
+      </Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Amenities] 宜居度（若[ICON_POWER] 供电充足，额外+2 [ICON_AMENITIES] 宜居度），该加成可扩展到9个单元格内的每个市中心（城市仅能应用1次此类加成，因此市中心9个单元格以内相同的此建筑不会再额外提供加成）。本城额外+1 [ICON_Amenities] 宜居度。本城位于或相邻海岸或湖泊单元格的每座奇观+2 [ICON_TOURISM] 旅游业绩。本城3个单元格内每有2个海岸或湖泊单元格，+1 [ICON_PRODUCTION] 生产力、1 [ICON_CULTURE] 文化值、3 [ICON_GOLD] 金币。
+      </Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_DIPLOMATIC_QUARTER_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>外国文明的每个代表团或大使馆+1 [ICON_Favor] 外交支持。敌方间谍以此区域或相邻区域作为目标时，其效果将降低2级。若相邻市中心建造，获得1名 [ICON_ENVOY] 使者。文明中最多建造一座此区域，城市被占领后将被移除。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_CONSULATE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+2影响力点数。敌方间谍以本城或拥有军营的城市为目标时，其效果将降低1级。所有盟友的同盟点数每回合额外增加0.25点。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_CHANCERY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+3影响力点数。俘获或杀死敌方间谍时，敌方间谍每拥有一级升级，便获得50点 [ICON_SCIENCE] 科技值。所有盟友的同盟点数每回合额外增加0.25点。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为纪念所选政体而在帝国中建造的区域。本城每回合的忠诚度+8。区域可从市政广场获得额外标准相邻加成。文明中最多建造一座此区域，城市被占领后将被移除。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>有 [ICON_GOVERNOR] 总督就职的城市+1 [ICON_AMENITIES] 宜居度、+3 [ICON_HOUSING] 住房，同时该 [ICON_GOVERNOR] 总督每有一级升级，该城市额外+1 [ICON_AMENITIES] 宜居度、+1 [ICON_HOUSING] 住房。无 [ICON_GOVERNOR] 总督就职的城市-2忠诚度。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城生产开拓者时+50% [ICON_PRODUCTION] 生产力。新建立的城市获得1个免费的建造者。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有城市+4忠诚度。战略资源储备+40（标准速度下）。每回合获得2点文明已解锁的战略资源。占领城市后，所有城市+20% [ICON_PRODUCTION] 生产力，效果持续5回合。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+2影响力点数。+3 [ICON_Favor] 外交支持。征召城邦单位费用降低50%。若是城邦的宗主国，则该城邦单位+4 [ICON_Strength] 战斗力（包括征召单位）。通往城邦的 [ICON_TradeRoute] 贸易路线+2 [ICON_Gold] 金币，若是该城邦的宗主国， [ICON_TradeRoute] 贸易路线额外+2 [ICON_PRODUCTION] 生产力。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1间谍容量，获得1名免费间谍。所有间谍+3视野范围，且行动的成功率上升1级。进攻性间谍任务成功时，获得目标城市该回合 [ICON_Gold] 金币的200%。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可以使用 [ICON_Faith] 信仰值购买陆地战斗单位。掠夺改良设施和区域可额外获得 [ICON_Faith] 信仰值。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有单位消灭一个敌方单位时恢复20点生命值。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>提供4个任意巨作槽位。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可以消耗单位全部劳动力为区域项目提供 [ICON_PRODUCTION] 生产力（每点剩余劳动力提供项目2%的 [ICON_PRODUCTION] 生产力），每座城市每回合限一次。[NEWLINE]奖励1个 [ICON_GOVERNOR] 总督头衔。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+    </Replace>
+    <Row Tag="LOC_BUILDING_BANK_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>本城+5% [ICON_Gold] 金币。提供与商业中心区域 [ICON_Gold] 金币产出相等的 [ICON_Gold] 金币。</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>所有 [ICON_TradeRoute] 贸易路线+1 [ICON_Gold] 金币。所有城市+3% [ICON_Gold] 金币。</Text>
+    </Row>
+    <Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_TradeRoute] 贸易路线容量。本城训练的所有海军单位+25%战斗经验值。本城所有海岸或湖泊单元格+1 [ICON_FOOD] 食物。若本城市中心与海岸或湖泊相邻，额外+2 [ICON_HOUSING] 住房。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城训练的所有海军单位+25%战斗经验值。提供与港口区域 [ICON_Gold] 金币产出相等的 [ICON_PRODUCTION] 生产力。本城所有未改良的海岸或湖泊单元格+1 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城训练的所有海军单位+25%战斗经验值。可直接生产舰队和无敌舰队。舰队和无敌舰队的生产费用降低25%。提供与港口区域 [ICON_Gold] 金币产出相等的 [ICON_FOOD] 食物。本城所有海岸或湖泊单元格+2 [ICON_Gold] 金币。为以本城为起点的国际和国内 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>提供3个 [ICON_GREATWORK_LANDSCAPE] 艺术巨作槽位。无法建造在已拥有考古博物馆的剧院广场区域中。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>提供3个 [ICON_GREATWORK_ARTIFACT] 文物槽位。本城可以训练考古学家。无法建造在已拥有艺术博物馆的剧院广场区域中。</Text>
+    </Replace>
+    <Row Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>[ICON_CULTURE] 文化值加成可扩展到6个单元格内的每个市中心（城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成）。</Text>
+    </Row>
+    <Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_COAL] 煤自动转换为 [ICON_POWER] 电力，每回合可为周围6个单元格内的城市提供其所需电力：[NEWLINE][ICON_BULLET]1点 [ICON_RESOURCE_COAL] 煤 [ICON_POWERRIGHT] 4点 [ICON_POWER] 电力[NEWLINE][ICON_BULLET]会向大气层排放大量二氧化碳。[NEWLINE]提供与工业区 [ICON_PRODUCTION] 生产力产出相等的 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_OIL] 石油自动转换为 [ICON_POWER] 电力，每回合可为周围6个单元格内的城市提供其所需电力：[NEWLINE][ICON_BULLET]1点 [ICON_RESOURCE_OIL] 石油 [ICON_POWERRIGHT] 4点 [ICON_POWER] 电力[NEWLINE][ICON_BULLET]会向大气层排放中量二氧化碳。[NEWLINE] [ICON_PRODUCTION] 生产力加成可扩展到6个单元格内的每个市中心（城市仅能应用1次此类加成，因此市中心6个单元格以内的发电厂建筑不会再额外提供加成）。本城工业区从区域获得额外标准相邻加成。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_URANIUM] 铀自动转换为 [ICON_POWER] 电力，每回合可为周围6个单元格内的城市提供其所需电力：[NEWLINE][ICON_BULLET]1点 [ICON_RESOURCE_URANIUM] 铀 [ICON_POWERRIGHT] 16点 [ICON_POWER] 电力[NEWLINE][ICON_BULLET]会向大气层排放少量二氧化碳。[NEWLINE] [ICON_PRODUCTION] 生产力和[ICON_SCIENCE] 科技值加成可扩展到6个单元格内的每个市中心（城市仅能应用1次此类加成，因此市中心6个单元格以内相同的发电厂建筑不会再额外提供加成）。提供与工业区 [ICON_PRODUCTION] 生产力产出相等的 [ICON_PRODUCTION] 生产力。[NEWLINE]建成较长时间后将有可能发生核事故。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每回合+1 [ICON_Favor] 外交支持。本城训练的所有战斗单位+25%战斗经验值。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_DAR_E_MEHR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>从建造或最后被修复开始每个时代额外+1 [ICON_FAITH] 信仰值。无法被自然灾害掠夺。为相邻惊艳单元格+1 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MOSQUE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城创建的传教士和使徒+1传教次数。本城圣地从区域获得额外标准相邻加成。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_BARRACKS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城训练的陆地近战、抗骑兵和远程单位+25%战斗经验值。[NEWLINE]战略资源储备+10（标准速度下）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_STABLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城训练的骑兵和攻城单位+25%战斗经验值。[NEWLINE]战略资源储备+10（标准速度下）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ARMORY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城训练的所有陆地单位+25%战斗经验值。[NEWLINE]战略资源储备+10（标准速度下）。</Text>
+    </Replace>
+
+    <Row Tag="LOC_ABILITY_SPY_SIGHT_NAME_Cos" Language="zh_Hans_CN">
+      <Text>+3视野。（情报局）</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_SPY_SIGHT_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>+3视野。（情报局）</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_LUXURY_GOLD_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_GOLD] 金币来自相邻奢侈品资源。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_OIL_WELL_PRODUCTION_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻油井。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION_Cos" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻海上石油钻机。</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PAGODA_TRAINED_UNIT_XP_NAME_Cos" Language="zh_Hans_CN">
+      <Text>获得的战斗经验值+25%。（宝塔）</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PAGODA_TRAINED_UNIT_XP_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>获得的战斗经验值+25%。（宝塔）</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

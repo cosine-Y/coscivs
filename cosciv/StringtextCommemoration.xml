@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+	<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+	  <Text>“布道者的远行”黄金时代：[NEWLINE]所有传教士、使徒和审判官+2 [ICON_Movement] 移动力，新生产的这些单位+2使用次数。圣地每回合额外产出2点 [ICON_GreatProphet] 大预言家点数。</Text>
+	</Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+	  <Text>“此处有龙”黄金时代：所有城市+3初始 [ICON_Citizen] 人口。海军和水运单位+2 [ICON_Movement] 移动力。和原始 [ICON_Capital] 首都不在同一个大陆的城市每回合+2忠诚度。</Text>
+	</Replace>
+  </LocalizedText>
+</GameData>

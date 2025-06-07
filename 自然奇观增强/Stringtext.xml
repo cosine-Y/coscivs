@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+    <Replace Tag="LOC_FEATURE_BARRIER_REEF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>位于海岸上、占2个单元格的自然奇观，提供+3 [ICON_Food] 食物、+2 [ICON_Science] 科技值、+1 [ICON_Production] 生产力。为学院区域提供大量相邻加成。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_CLIFFS_DOVER_XP2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占2个单元格的自然奇观。随水域旁的悬崖出现，提供+3 [ICON_CULTURE] 文化值、+3 [ICON_Food] 食物、+3 [ICON_Gold] 金币。为相邻单元格+4魅力（非普通的+2）。无法在其上方建造改良设施、区域或建立城市。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_CRATER_LAKE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占1个单元格的自然奇观。其外观为湖泊，提供+5 [ICON_Faith] 信仰值、+1 [ICON_Science] 科技值、+1 [ICON_Food] 食物和+2 [ICON_Gold] 金币。可提供淡水。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_DEAD_SEA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占2个单元格的湖泊自然奇观。提供+4 [ICON_Faith] 信仰值、+4 [ICON_Culture] 文化值。单位相邻死海驻扎时，可完全恢复生命值。不提供淡水。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_PANTANAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占4个单元格的自然奇观。提供+3 [ICON_Food] 食物、+2 [ICON_Culture] 文化值、+1 [ICON_Science] 科技值。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_HA_LONG_BAY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占2个单元格的自然奇观，位于海岸单元格上。提供+3 [ICON_FOOD] 食物、+1 [ICON_PRODUCTION] 生产力、+2 [ICON_CULTURE] 文化。在此单元格中进行防御时+15 [ICON_Strength] 战斗力。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_EYE_OF_THE_SAHARA_XP2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占3个单元格的自然奇观。提供+2 [ICON_PRODUCTION] 生产力、+1 [ICON_SCIENCE] 科技值、+3 [ICON_Gold] 金币。游戏进入原子能时代后额外+1 [ICON_PRODUCTION] 生产力、+3 [ICON_SCIENCE] 科技值。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_LAKE_RETBA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占2个单元格的湖泊自然奇观。提供+3 [ICON_CULTURE] 文化值、+4 [ICON_Gold] 金币、+1 [ICON_PRODUCTION] 生产力。不提供淡水。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占4个单元格的自然奇观。提供+4 [ICON_FAITH] 信仰值、+1 [ICON_FOOD] 食物、+3 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_CHOCOLATEHILLS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占4个单元格的自然奇观。提供+2 [ICON_Food] 食物、+3 [ICON_Production] 生产力、+1 [ICON_Science] 科技值。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_GOBUSTAN_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占3个单元格的自然奇观。提供+4 [ICON_CULTURE] 文化值、+4 [ICON_Production] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_WHITEDESERT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占4个单元格的自然奇观。提供+2 [ICON_SCIENCE] 科技值、+2 [ICON_Culture] 文化值、+4 [ICON_GOLD] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占1个单元格的自然奇观。提供+1 [ICON_FOOD] 食物、+4 [ICON_Science] 科技值、+4 [ICON_Faith] 信仰值。可提供淡水。进入此奇观的陆地战斗单位将获得能力“生命之水”（在任意领土中+10生命值恢复）。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_EVEREST_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>不可通行的占3个单元格的自然奇观。为相邻单元格提供+2 [ICON_Faith] 信仰值、+1 [ICON_Production] 生产力。移动到珠穆朗玛峰附近的宗教单位获得无视丘陵地形移动力减益的能力。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_TSINGY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>不可通行的占1个单元格的自然奇观。为相邻单元格+1 [ICON_Culture] 文化值、+1 [ICON_Science] 科技值、+2 [ICON_GOLD] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_PIOPIOTAHI_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>不可通行的占3个单元格的自然奇观。为相邻单元格+1 [ICON_Culture] 文化值、+3 [ICON_GOLD] 金币和+1 [ICON_FOOD] 食物。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_LYSEFJORDEN_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>不可通行的占3个单元格的自然奇观。为相邻单元格+1 [ICON_Production] 生产力、+2 [ICON_GOLD] 金币。海军战斗单位首次进入相邻格位后将获得1次免费升级。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_ULURU_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>不可通行的占1个单元格的自然奇观。为相邻单元格+4 [ICON_Culture] 文化值、+2 [ICON_Faith] 信仰值。为相邻单元格+4魅力（非普通的+2）。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_DELICATE_ARCH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>不可通行的占1个单元格的自然奇观。为相邻单元格+2 [ICON_Faith] 信仰值、+4 [ICON_GOLD] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_DEVILSTOWER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>不可通行的占1个单元格的自然奇观。为相邻单元格+1 [ICON_FOOD] 食物、+1 [ICON_FAITH] 信仰值、+1 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_FEATURE_VESUVIUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>不可通行的占1个单元格的火山自然奇观。为相邻单元格提供+1 [ICON_PRODUCTION] 生产力、+2 [ICON_GOLD] 金币。喷发时为相邻单元格提供大量产出，但会造成大量 [ICON_CITIZEN] 人口减少。其固定为活跃状态。</Text>
+    </Replace>
+  </LocalizedText>	
+</GameData>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+    <Replace Tag="LOC_IMPROVEMENT_ALCAZAR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造阿卡萨城堡的能力。[NEWLINE][NEWLINE]+2 [ICON_CULTURE] 文化值。提供所在单元格魅力75%的 [ICON_Science] 科技值。进驻单位+4 [ICON_Strength] 防御力，自动进入驻扎状态并获得两回合的驻扎加成（无论他们本回合是否行动过）。解锁“飞行”科技后，文化值可提供 [ICON_Tourism] 旅游业绩。无法建在另一座阿卡萨城堡旁。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_BATEY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造巴特依的能力。[NEWLINE][NEWLINE]+1 [ICON_CULTURE] 文化值。每与一个加成资源、娱乐中心或水上乐园相邻，额外+1 [ICON_CULTURE] 文化值（解锁“探索”市政后改为+2）。解锁“飞行”科技后，文化值可提供 [ICON_Tourism] 旅游业绩。无法建在丘陵上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁军事工程师建造堡垒的能力。[NEWLINE][NEWLINE]进驻单位+4 [ICON_Strength] 防御力，自动进入驻扎状态并获得两回合的驻扎加成（无论他们本回合是否行动过）。每与一个军营、航空港区域相邻，+1 [ICON_Production] 生产力。每相邻2个堡垒+1 [ICON_Production] 生产力，解锁“紧急部署”市政后，每相邻2个堡垒+1 [ICON_FOOD] 食物。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MAHAVIHARA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造大寺的能力。[NEWLINE][NEWLINE]+2 [ICON_SCIENCE] 科技值、+1 [ICON_HOUSING] 住房。每相邻一个圣地区域+1 [ICON_Faith] 信仰值。每相邻一个学院区域+1 [ICON_SCIENCE] 科技值（解锁“科学理论”后改为+2）。首次建成大寺时将随机获得一项科技。无法建在丘陵上，且不能与另一个大寺相邻。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造地热发电厂的能力。[NEWLINE][NEWLINE]+1 [ICON_SCIENCE] 科技值、+2 [ICON_PRODUCTION] 生产力、+2 [ICON_GOLD] 金币。每回合提供4点 [ICON_POWER] 电力。必须建在地热裂缝上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] 生产力。必须建在树林上。解锁“公会”市政后也能建造雨林上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造风力发电厂的能力。[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] 生产力、+2 [ICON_GOLD] 金币。每回合提供2点 [ICON_POWER] 电力。必须建在丘陵上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造海滨度假区的能力。[NEWLINE][NEWLINE]+1 [ICON_AMENITIES] 宜居度。提供所在单元格魅力100%的 [ICON_Tourism] 旅游业绩和 [ICON_GOLD] 金币。必须建在相邻海岸的平原、草原、沙漠或火山土上。要求单元格魅力值不小于4。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造滑雪场的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币。+1 [ICON_AMENITIES] 宜居度。+4 [ICON_Tourism] 旅游业绩。必须建在无火山的山脉上，且不能与另一个滑雪场相邻。无法被掠夺或移除。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造巨神头像的能力。[NEWLINE][NEWLINE]+2 [ICON_FAITH] 信仰值。每相邻2个森林或雨林+1 [ICON_FAITH] 信仰值，解锁“人文主义”市政后改为每相邻1个森林或雨林+1 [ICON_FAITH] 信仰值。解锁“飞行”科技后，信仰值可提供 [ICON_Tourism] 旅游业绩。可以建造在森林、雨林和火山土上，无法建在泛滥平原、雪地、雪地丘陵上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造卡霍基亚土墩的能力。[NEWLINE][NEWLINE]+3 [ICON_GOLD] 金币、+1 [ICON_HOUSING] 住房。有卡霍基亚土墩的城市+1 [ICON_AMENITIES] 宜居度。解锁“自然历史”后，有至少2个卡霍基亚土墩的城市额外+1 [ICON_AMENITIES] 宜居度。解锁“封建主义”后，每相邻2个区域+1 [ICON_FOOD] 食物；解锁“零件规格化”后改为每相邻1个区域+1 [ICON_FOOD] 食物。解锁“文化遗产”后，额外+1 [ICON_HOUSING] 住房。无法建在丘陵上，且不能与另一个卡霍基亚土墩相邻。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造矿山的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力。只能在丘陵、火山土、地热裂缝或有效资源上建造。为相邻单元格提供-1魅力。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造离岸风力发电厂的能力。[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] 生产力、+2 [ICON_GOLD] 金币。每回合提供2点 [ICON_POWER] 电力。必须建在海岸或湖泊单元格上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MOAI_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造摩艾石像的能力。[NEWLINE][NEWLINE]+1 [ICON_CULTURE] 文化值。每相邻2个摩艾石像额外+1 [ICON_CULTURE] 文化值；解锁“中世纪集市”市政后改为每相邻1个摩艾石像额外+1 [ICON_CULTURE] 文化值。位于火山土单元格之上或与其相邻时，+2 [ICON_CULTURE] 文化值；与海岸或湖泊单元格相邻时，+1 [ICON_CULTURE] 文化值；与树林或雨林相邻时，-2 [ICON_CULTURE] 文化值。解锁“飞行”科技后，文化值可提供 [ICON_Tourism] 旅游业绩。可以建造在火山土上，无法建在泛滥平原、雪地、雪地丘陵上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造牧场的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+0.5 [ICON_HOUSING] 住房。解锁“骑马”后，每相邻1个牧场+1 [ICON_FOOD] 食物。只能在有效资源上建造。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_NAZCA_LINE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造纳斯卡巨画的能力。[NEWLINE][NEWLINE]使相邻己方单元格+1 [ICON_FAITH] 信仰值，若拥有资源则额外+1 [ICON_FAITH] 信仰值。解锁“行政部门”后，相邻的沙漠、沙漠丘陵单元格+1 [ICON_FOOD] 食物。解锁“批量生产”后，相邻的平坦地形+1 [ICON_PRODUCTION] 生产力。只能建在沙漠上，解锁“自然历史”后可以建在草原和平原上。为相邻单元格提供+1魅力。此单元格无法派遣人口进行工作。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造农场的能力。[NEWLINE][NEWLINE]+1 [ICON_FOOD] 食物、+0.5 [ICON_HOUSING] 住房。解锁“化学”后额外+1 [ICON_FOOD] 食物。解锁“封建主义”后，每相邻2个农场+1 [ICON_FOOD] 食物；解锁“零件规格化”后改为每相邻1个农场+1 [ICON_FOOD] 食物。只能建在草原、平原、泛滥平原或火山土上，解锁“土木工程”后可以建在草原丘陵和平原丘陵上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造市立公园的能力。[NEWLINE][NEWLINE]+1 [ICON_CULTURE] 文化值、+2 [ICON_GOLD] 金币。解锁“城市化”后，每相邻一个区域+2 [ICON_GOLD] 金币。为相邻单元格提供+2魅力。如与水域相邻，+1 [ICON_AMENITIES] 宜居度。只能建造在“测量师”总督（必须拥有“公园与休憩”升级）就职的城市中，且不能与另一个市立公园相邻。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造太阳能农场的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+1 [ICON_GOLD] 金币。每相邻1个太阳能农场+2 [ICON_GOLD] 金币。每回合提供2点 [ICON_POWER] 电力。无法建在丘陵上。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MONASTERY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者和武僧建造修道院的能力。[NEWLINE][NEWLINE]+2 [ICON_FAITH] 信仰值、+1 [ICON_HOUSING] 住房。每相邻1个区域+1 [ICON_FAITH] 信仰值。解锁“殖民主义”后，额外+1 [ICON_HOUSING] 住房。此单元格上的友方宗教单位生命值恢复+15（前提是其当前回合未发动攻击）。该城市中训练的所有武僧+50%战斗经验值（不叠加）。不能与另一个修道院相邻。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造渔场的能力。[NEWLINE][NEWLINE]+1 [ICON_FOOD] 食物、+0.5 [ICON_HOUSING] 住房。每与一个海洋资源相邻，额外+1 [ICON_FOOD] 食物。解锁“天文导航”后，每相邻1个渔场+1 [ICON_GOLD] 金币；解锁“封建主义”后，每相邻2个渔场+1 [ICON_FOOD] 食物。只能在海岸或湖泊单元格上建造。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造渔船的能力。[NEWLINE][NEWLINE]+1 [ICON_FOOD] 食物、+0.5 [ICON_HOUSING] 住房。只能在礁石或有效资源上建造。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_TRADING_DOME_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造圆顶市集的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币。每与一个奢侈品资源相邻，额外+2 [ICON_GOLD] 金币。若所有者为撒马尔罕的宗主国，则该城市三个单元格范围内每有一个圆顶市集，从该城市起源的 [ICON_TradeRoute] 贸易路线便+2 [ICON_GOLD] 金币。不能与另一个圆顶市集相邻。</Text>
+    </Replace>
+    
+    <Row Tag="LOC_ABILITY_MONASTERY_TRAINED_UNIT_XP_NAME_Cos" Language="zh_Hans_CN">
+      <Text>获得的战斗经验值+50%。（修道院）</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MONASTERY_TRAINED_UNIT_XP_DESCRIPTION_Cos" Language="zh_Hans_CN">
+      <Text>获得的战斗经验值+50%。（修道院）</Text>
+    </Row>
+  </LocalizedText>	
+</GameData>

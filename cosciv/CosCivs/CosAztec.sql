@@ -1,0 +1,53 @@
+--阿兹特克
+--建造者加一移动力
+INSERT INTO TraitModifiers (TraitType , ModifierId)
+	VALUES ('TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS' , 'FASTER_BUILDERS_CosAztec');
+INSERT INTO Modifiers (ModifierId , ModifierType ,SubjectRequirementSetId)
+	VALUES ('FASTER_BUILDERS_CosAztec', 'MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT','UNIT_IS_BUILDER');
+INSERT INTO ModifierArguments (ModifierId , Name , Value)
+	VALUES ('FASTER_BUILDERS_CosAztec', 'Amount', '1');
+--蒙特祖玛--
+--改良奢侈品资源+2金
+INSERT INTO TraitModifiers (TraitType , ModifierId)
+	VALUES ('TRAIT_LEADER_GIFTS_FOR_TLATOANI' , 'TRAIT_LUXURY_GOLD_CosAztec');
+INSERT INTO Modifiers (ModifierId , ModifierType, SubjectRequirementSetId)
+	VALUES ('TRAIT_LUXURY_GOLD_CosAztec', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 'PLOT_HAS_IMPROVED_LUXURY_REQUIREMENTS_Cos');
+INSERT INTO RequirementSets (RequirementSetId , RequirementSetType)
+	VALUES ('PLOT_HAS_IMPROVED_LUXURY_REQUIREMENTS_Cos' , 'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId , RequirementId) VALUES
+('PLOT_HAS_IMPROVED_LUXURY_REQUIREMENTS_Cos', 'REQUIRES_PLOT_HAS_IMPROVED_LUXURY');
+INSERT INTO ModifierArguments (ModifierId , Name , Value) VALUES
+('TRAIT_LUXURY_GOLD_CosAztec', 'YieldType', 'YIELD_GOLD'),
+('TRAIT_LUXURY_GOLD_CosAztec', 'Amount', '2');
+--每种改良奢侈品为本城提供1点宜居度
+INSERT INTO Types (Type,Kind) 
+	VALUES ('MODIFIER_LUXURIES_EXTRA_AMENITIES_CosAztec', 'KIND_MODIFIER');
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType)
+	VALUES ('MODIFIER_LUXURIES_EXTRA_AMENITIES_CosAztec', 'COLLECTION_PLAYER_CITIES', 'EFFECT_ADJUST_CITY_EXTRA_AMENITY_FOR_LUXURY_DIVERSITY');
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+	VALUES ('AMENITIES_LUXURIES_CosAztec' , 'MODIFIER_LUXURIES_EXTRA_AMENITIES_CosAztec' , NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+	VALUES ('AMENITIES_LUXURIES_CosAztec' , 'Amount' , '1');
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+	VALUES ('TRAIT_LEADER_GIFTS_FOR_TLATOANI', 'AMENITIES_LUXURIES_CosAztec');
+--所有近战、抗骑兵、轻重骑兵单位获得抓工人能力
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+	VALUES ('TRAIT_LEADER_GIFTS_FOR_TLATOANI', 'TRAIT_CAPTURE_WORKER_CosAztec');
+INSERT INTO TypeTags (Type, Tag)
+	VALUES ('ABILITY_CAPTIVE_WORKERS', 'CLASS_MELEE');
+INSERT INTO TypeTags (Type, Tag)
+	VALUES ('ABILITY_CAPTIVE_WORKERS', 'CLASS_HEAVY_CAVALRY');
+INSERT INTO TypeTags (Type, Tag)
+	VALUES ('ABILITY_CAPTIVE_WORKERS', 'CLASS_LIGHT_CAVALRY');
+INSERT INTO TypeTags (Type, Tag)
+	VALUES ('ABILITY_CAPTIVE_WORKERS', 'CLASS_ANTI_CAVALRY');
+UPDATE UnitAbilities SET Inactive=1 WHERE UnitAbilityType='ABILITY_CAPTIVE_WORKERS';
+INSERT INTO Modifiers (ModifierId, ModifierType,Permanent)
+	VALUES ('TRAIT_CAPTURE_WORKER_CosAztec', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',1);
+INSERT INTO ModifierArguments (ModifierId, Name ,Value)
+	VALUES ('TRAIT_CAPTURE_WORKER_CosAztec', 'AbilityType','ABILITY_CAPTIVE_WORKERS');
+--雄鹰战士
+--移除抓工人能力
+Delete From TypeTags WHERE Type="UNIT_AZTEC_EAGLE_WARRIOR" AND  Tag="CLASS_CAPTURE_WORKER";
+--造价降低
+UPDATE Units SET Cost=52 WHERE UnitType='UNIT_AZTEC_EAGLE_WARRIOR';
